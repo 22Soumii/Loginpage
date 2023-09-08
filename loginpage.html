@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form </title>
+
+  <link rel="stylesheet" href="login.css">
+  
+<!-- -----------------Fontawesome CDN--------------- -->
+
+  <script src="https://kit.fontawesome.com/2d75870d4f.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <div class="login-container">
+    <header> Login Form
+      <img class="avatar" src="undraw_welcome_cats_thqn.svg" width="210px">
+      <h5>BACK</h5>
+    </header>
+    
+<!-- ----------------- Form section--------------- -->
+
+    <form action="welcome.html" >
+      <div class="field email">
+        <div class="input-area">
+          <input type="text" placeholder="Email Address">
+
+   <!-- -----------------Icons--------------- -->
+
+          <i class="icon fas fa-envelope"></i>
+          <i class="error error-icon fas fa-circle-exclamation"></i>
+        </div>
+        <div class="error error-txt">Email can't be blank</div>
+      </div>
+      <div class="field password">
+        <div class="input-area">
+          <input type="password" placeholder="Password">
+
+   <!-- -----------------Icons--------------- -->
+
+          <i class="icon fas fa-lock"></i>
+          <i class="error error-icon fas fa-circle-exclamation"></i>
+        </div>
+        <div class="error error-txt">Password can't be blank</div>
+      </div>
+      <div class="pass-txt"><a href="#">Forgot password?</a></div>
+
+      <input type="submit" value="Login">
+    </form>
+
+    <p class="txt1">OR</p>
+    <p class="txt">Use social account</p>
+
+    <!-- -----------------Icons--------------- -->
+    <div class="social">
+    <a href="#"><i class="fa-brands fa-google"></i></a>
+    <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="#" ><i class="fa-brands fa-facebook-f"></i></a>
+   </div>
+    <div class="sign-txt">Not Registered? <a href="#" class="sign-txt2">Signup now</a></div>
+  </div>
+  
+<!-- ------------------Web page script ------------------->
+
+  <script src="login.js"></script>
+
+</body>
+</html>
